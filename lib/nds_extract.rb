@@ -11,7 +11,7 @@ def directors_totals(nds)
     direct[:movies].each do |movie|
       money += movie[:worldwide_gross]
     end
-    result[name] = "#{money}"
+    result[name] = money
   end
   result
 end
