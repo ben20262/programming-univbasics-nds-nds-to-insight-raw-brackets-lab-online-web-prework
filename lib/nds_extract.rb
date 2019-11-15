@@ -12,6 +12,6 @@ def directors_totals(nds)
       money += movie[:worldwide_gross]
     end
     result[name] = "#{money}"
-
+  end
   result
 end
